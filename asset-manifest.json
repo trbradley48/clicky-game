@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/trbradley48/clicky-game/static/css/main.0b216c8d.chunk.css",
-    "main.js": "/trbradley48/clicky-game/static/js/main.df4c6941.chunk.js",
-    "main.js.map": "/trbradley48/clicky-game/static/js/main.df4c6941.chunk.js.map",
-    "runtime~main.js": "/trbradley48/clicky-game/static/js/runtime~main.5b36ab0b.js",
-    "runtime~main.js.map": "/trbradley48/clicky-game/static/js/runtime~main.5b36ab0b.js.map",
-    "static/js/2.6efc73d3.chunk.js": "/trbradley48/clicky-game/static/js/2.6efc73d3.chunk.js",
-    "static/js/2.6efc73d3.chunk.js.map": "/trbradley48/clicky-game/static/js/2.6efc73d3.chunk.js.map",
-    "index.html": "/trbradley48/clicky-game/index.html",
-    "precache-manifest.e6932d321c3f1f1bc0b73c59cde70aaa.js": "/trbradley48/clicky-game/precache-manifest.e6932d321c3f1f1bc0b73c59cde70aaa.js",
-    "service-worker.js": "/trbradley48/clicky-game/service-worker.js",
-    "static/css/main.0b216c8d.chunk.css.map": "/trbradley48/clicky-game/static/css/main.0b216c8d.chunk.css.map",
-    "static/media/logo.svg": "/trbradley48/clicky-game/static/media/logo.5d5d9eef.svg"
+    "main.css": "/clicky-game/static/css/main.0b216c8d.chunk.css",
+    "main.js": "/clicky-game/static/js/main.93700d73.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.93700d73.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/clicky-game/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/clicky-game/static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.8377dbcba82c420f975e363973dc5ae1.js": "/clicky-game/precache-manifest.8377dbcba82c420f975e363973dc5ae1.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.0b216c8d.chunk.css.map": "/clicky-game/static/css/main.0b216c8d.chunk.css.map",
+    "static/media/logo.svg": "/clicky-game/static/media/logo.5d5d9eef.svg"
   }
 }
