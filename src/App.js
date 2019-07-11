@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar'
-import Game from './components/Game'
 import Character from './components/CharacterCard'
 import characters from './Characters.json'
 import Wrapper from './components/Wrapper'
@@ -27,7 +26,7 @@ class App extends React.Component {
 
     for (let i = 0; i < (this.state.yourGuesses.length + 1); i++) {
       if (id === this.state.yourGuesses[i]) {
-        console.log("Missmatch ID");
+        console.log("Matching IDs");
         this.setState({ yourGuessText: loseText })
         newScore = 0;
         this.setState({ yourScore: newScore });
@@ -52,7 +51,42 @@ class App extends React.Component {
     }
     console.log("Score:" + newScore);
     this.setState({ yourGuesses: newGuess })
+
+
+
+    // var ids = [0,1,2,3,4,5,6,7,8,9,10,11];
+    // this.shuffle(ids);
+    // // console.log(ids);
+    // var temp = this.state.characters
+    // // console.log("temp[0]")
+    // // console.log(temp[0])
+    // // console.log(temp)
+
+    // for (let i = 0; i < this.state.characters.length; i++) {
+    //   // temp[i] = ids[i]
+    //   console.log(ids[i])
+    //   ids[i] = temp[i]
+    // }
+    // // console.log(temp)
+    // // console.log("ids[0]")
+    // console.log(ids[0])
+    // // console.log(ids)
+    // // this.setState({ characters: temp })
+
   }
+
+  // shuffle(array) {
+  //   var tmp, current, top = array.length;
+  //   if (top) while (--top) {
+  //     current = Math.floor(Math.random() * (top + 1));
+  //     tmp = array[current];
+  //     array[current] = array[top];
+  //     array[top] = tmp;
+  //   }
+  //   return array;
+  // }
+
+
 
 
   // shuffle(set) {
@@ -81,19 +115,6 @@ class App extends React.Component {
           ))}
 
         </Wrapper>
-
-        {/* <Game>
-          yourGuess={this.state.yourGuess}
-          onClick={this.handleClick}
-          {this.state.characters.map(character => (
-            <Character>
-              id={character.id}
-              key={character.id}
-              image={character.image}
-            </Character>
-          ))}
-        </Game> */}
-
       </React.Fragment>
     );
   }

@@ -7,16 +7,23 @@
 
 .gameName {
   display: inline-block;
+  margin-left: 10px;
+  margin-right: 200px;
 }
 
 .guessText {
   display: inline-block;
+  margin-right: 375px;
 }
 
 .currentScoreText {
   display: inline-block;
+  /* float: right; */
+  margin-right: 25px;
 }
 
 .highScoreText {
-  display: inline-block;
+  /* display: inline-block; */
+  float: right;
+  margin-right: 10px;
 }
