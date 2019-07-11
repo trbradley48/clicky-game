@@ -1,0 +1,22 @@
+.navbar {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 50px;
+  background-color: #5133a4;
+}
+
+.gameName {
+  display: inline-block;
+}
+
+.guessText {
+  display: inline-block;
+}
+
+.currentScoreText {
+  display: inline-block;
+}
+
+.highScoreText {
+  display: inline-block;
+}
